@@ -10,8 +10,8 @@ pipeline {
     }
 
     environment {
-        DEV_PROJECT = "canerko-garantibbva-com-tr"
-        STAGE_PROJECT = "canerko-garantibbva-com-tr"
+        DEV_PROJECT = "canerko-garantibbva-com-tr-books-dev"
+        STAGE_PROJECT = "canerko-garantibbva-com-tr-books-stage"
         APP_GIT_URL = "https://github.com/canerkoseren/DO288-apps"
         NEXUS_SERVER = "http://nexus-common.apps.ocp-eu2.prod.nextcle.com/repository/nodejs"
 
